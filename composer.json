@@ -1,0 +1,12 @@
+{
+	"name": "noctua-media/reiseuhu-package-auth-checker",
+    "description": "Checks if a passed token is valid",
+	"require": {
+		"firebase/php-jwt": "dev-master"
+	},
+	"autoload": {
+        "psr-4": {
+            "Vapost\\ReiseuhuAuthChecker\\": "src/"
+        }
+    }
+}
